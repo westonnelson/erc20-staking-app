@@ -1,41 +1,9 @@
-# ERC20 Staking App
+# NFTEarth - ERC20 Staking App
 
 Allow users to stake their ERC20 tokens in return for more/other ERC20 tokens!
 
-In this repo, we are using [thirdweb ContractKit](https://thirdweb.com/contractkit) and writing a custom ERC-20 staking contract.
+Custom ERC-20 Staking application for $NFTE tokens on Arbitrum.
 
-You can read [the guide associated to this repo](https://blog.thirdweb.com/build-an-erc20-staking-smart-contract-web-application/).
+Staking Contract on Arbitrum: 0xaA9D9a8f810463f24825c05f3075c1Fc6a430430
 
-## How to use
-
-Clone this repo to have this repo locally.
-
-The `staking-contract` directory holds the contracts the contract that we are using in this guide. You can navigate to the folder and run the following command to install the dependencies
-
-```bash
-yarn install
-```
-
-The root directory holds the frontend code. You run the following command to install the dependencies
-
-```bash
-yarn install
-```
-
-### Deploying the contract
-
-You can deploy the contract using the following command
-
-```bash
-npx thirdweb@latest deploy
-```
-
-This will upload the contract metadata to IPFS and will open browser to deploy the contract using the connected wallet.
-
-### Deploying the frontend
-
-You can use the following command to quickly deploy the frontend to IPFS:
-
-```bash
-yarn deploy
-```
+Frontend has been deployed to IPFS [here](https://ipfs.thirdwebcdn.com/ipfs/QmVrNoRTYULkmoi3sUCn3sNa1f3WYyEzJFs2CHXUzmf3fA/)

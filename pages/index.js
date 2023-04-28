@@ -13,7 +13,7 @@ import { ethers } from "ethers";
 import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
 
-const stakingContractAddress = "0x9fB6514bc5048C92c87f4d25371325758f30592A";
+const stakingContractAddress = "0xaA9D9a8f810463f24825c05f3075c1Fc6a430430";
 
 export default function Home() {
   const address = useAddress();
@@ -66,10 +66,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to staking app!</h1>
+        <h1 className={styles.title}>Welcome to the NFTE staking rewards app!</h1>
 
         <p className={styles.description}>
-          Stake certain amount and get reward tokens back!
+          Stake your tokens and earn $ARB rewards!
         </p>
 
         <div className={styles.connect}>
@@ -99,7 +99,7 @@ export default function Home() {
               alert("Tokens staked successfully!");
             }}
           >
-            Stake!
+            Stake Now!
           </Web3Button>
 
           <Web3Button
@@ -124,7 +124,7 @@ export default function Home() {
               alert("Rewards claimed successfully!");
             }}
           >
-            Claim rewards!
+            Claim Rewards!
           </Web3Button>
         </div>
 

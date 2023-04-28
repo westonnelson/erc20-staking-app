@@ -99,7 +99,7 @@ export default function Home() {
               alert("Tokens staked successfully!");
             }}
           >
-            Stake Now!
+            Stake!
           </Web3Button>
 
           <Web3Button
@@ -130,24 +130,24 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a className={styles.card}>
-            <h2>Stake token balance</h2>
+            <h2>Staked NFTE Token Amount</h2>
             <p>{stakingTokenBalance?.displayValue}</p>
           </a>
 
           <a className={styles.card}>
-            <h2>Reward token balance</h2>
+            <h2>Reward ARB Tokens Amount</h2>
             <p>{rewardTokenBalance?.displayValue}</p>
           </a>
 
           <a className={styles.card}>
-            <h2>Staked amount</h2>
+            <h2>Staked Amount</h2>
             <p>
               {stakeInfo && ethers.utils.formatEther(stakeInfo[0].toString())}
             </p>
           </a>
 
           <a className={styles.card}>
-            <h2>Current reward</h2>
+            <h2>Current Rewards</h2>
             <p>
               {stakeInfo && ethers.utils.formatEther(stakeInfo[1].toString())}
             </p>
